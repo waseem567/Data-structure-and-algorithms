@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const dupArray = [1, 1, 1, 4, 4, 5, 7, 8, 4, 3, 4, 6, 7];
+      const removeDuplicationFromArrayHandler = (duplicated) => {
+        const unique = [];
+        let counter = 0;
+        for (i = 0; i < duplicated.length; i++) {
+          if (!unique.includes(duplicated[i])) {
+            unique.push(duplicated[i]);
+            counter++;
+          }
+        }
+        console.log(unique, Number(dupArray.length - counter));
+      };
+      removeDuplicationFromArrayHandler(dupArray);
+    </script>
+  </body>
+</html>
