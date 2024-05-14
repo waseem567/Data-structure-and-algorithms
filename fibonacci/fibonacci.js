@@ -1,4 +1,4 @@
-const fibonacciNumbersGenerator = (upto: number) => {
+const fibonacciNumbersGenerator = (upto) => {
   let fnum = 0;
   let snum = 1;
   let next = 0;
