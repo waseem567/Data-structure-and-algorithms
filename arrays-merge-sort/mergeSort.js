@@ -1,6 +1,6 @@
 const a1 = [1, 2, 3, 4, 5, 9];
 const a2 = [2, 4, 6, 1, 3, 4, 5, 8];
-// output -> [1,1, 1, 2, 2, 3, 3,4, 4, 4,5, 5,6,8,9]
+// output -> [1, 2, 3, 4, 5,6,8,9]
 // [1, 2, 3,4, 5,6, 8, 9]
 // merging two arrays
 const mergeHandler = (a, b) => {
